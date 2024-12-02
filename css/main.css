@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+/* Color Palette */
+
+/* Primary Color Palette */
+/* Background Colors */
+.bg-primary-50 {
+    background-color: #f0f8ff;
+}
+
+.bg-primary-100 {
+    background-color: #e0f0fe;
+}
+
+.bg-primary-200 {
+    background-color: #bae2fd;
+}
+
+.bg-primary-300 {
+    background-color: #7eccfb;
+}
+
+.bg-primary-400 {
+    background-color: #39b2f7;
+}
+
+.bg-primary-500 {
+    background-color: #0f99e8;
+}
+
+.bg-primary-600 {
+    background-color: #0378c5;
+}
+
+.bg-primary-700 {
+    background-color: #0460a0;
+}
+
+.bg-primary-800 {
+    background-color: #085284;
+}
+
+.bg-primary-900 {
+    background-color: #0d456d;
+}
+
+.bg-primary-950 {
+    background-color: #082b49;
+}
+
+/* Text Colors */
+.color-primary-50 {
+    color: #f0f8ff;
+}
+
+.color-primary-100 {
+    color: #e0f0fe;
+}
+
+.color-primary-200 {
+    color: #bae2fd;
+}
+
+.color-primary-300 {
+    color: #7eccfb;
+}
+
+.color-primary-400 {
+    color: #39b2f7;
+}
+
+.color-primary-500 {
+    color: #0f99e8;
+}
+
+.color-primary-600 {
+    color: #0378c5;
+}
+
+.color-primary-700 {
+    color: #0460a0;
+}
+
+.color-primary-800 {
+    color: #085284;
+}
+
+.color-primary-900 {
+    color: #0d456d;
+}
+
+.color-primary-950 {
+    color: #082b49;
+}
+
+/* Neutral Color Palette */
+
+/* Background Colors */
+.bg-neutral-50 {
+    background-color: #f8f9fa;
+}
+
+.bg-neutral-100 {
+    background-color: #f1f3f5;
+}
+
+.bg-neutral-200 {
+    background-color: #e9ecef;
+}
+
+.bg-neutral-300 {
+    background-color: #dee2e6;
+}
+
+.bg-neutral-400 {
+    background-color: #ced4da;
+}
+
+.bg-neutral-500 {
+    background-color: #adb5bd;
+}
+
+.bg-neutral-600 {
+    background-color: #6c757d;
+}
+
+.bg-neutral-700 {
+    background-color: #495057;
+}
+
+.bg-neutral-800 {
+    background-color: #343a40;
+}
+
+.bg-neutral-900 {
+    background-color: #212529;
+}
+
+.bg-neutral-950 {
+    background-color: #121416;
+}
+
+/* Text Colors */
+.color-neutral-50 {
+    color: #f8f9fa;
+}
+
+.color-neutral-100 {
+    color: #f1f3f5;
+}
+
+.color-neutral-200 {
+    color: #e9ecef;
+}
+
+.color-neutral-300 {
+    color: #dee2e6;
+}
+
+.color-neutral-400 {
+    color: #ced4da;
+}
+
+.color-neutral-500 {
+    color: #adb5bd;
+}
+
+.color-neutral-600 {
+    color: #6c757d;
+}
+
+.color-neutral-700 {
+    color: #495057;
+}
+
+.color-neutral-800 {
+    color: #343a40;
+}
+
+.color-neutral-900 {
+    color: #212529;
+}
+
+.color-neutral-950 {
+    color: #121416;
+}
+
+/* Font Sizes and Line Heights */
+
+/* Extra Small Text */
+.text-xs {
+    font-size: 0.75rem; /* 12px */
+    line-height: 1rem; /* 16px */
+}
+
+/* Small Text */
+.text-sm {
+    font-size: 0.875rem; /* 14px */
+    line-height: 1.25rem; /* 20px */
+}
+
+/* Base Text */
+.text-base {
+    font-size: 1rem; /* 16px */
+    line-height: 1.5rem; /* 24px */
+}
+
+/* Large Text */
+.text-lg {
+    font-size: 1.125rem; /* 18px */
+    line-height: 1.75rem; /* 28px */
+}
+
+/* Extra Large Text */
+.text-xl {
+    font-size: 1.25rem; /* 20px */
+    line-height: 1.75rem; /* 28px */
+}
+
+/* 2XL Text */
+.text-2xl {
+    font-size: 1.5rem; /* 24px */
+    line-height: 2rem; /* 32px */
+}
+
+/* 3XL Text */
+.text-3xl {
+    font-size: 1.875rem; /* 30px */
+    line-height: 2.25rem; /* 36px */
+}
+
+/* 4XL Text */
+.text-4xl {
+    font-size: 2.25rem; /* 36px */
+    line-height: 2.5rem; /* 40px */
+}
+
+/* 5XL Text */
+.text-5xl {
+    font-size: 3rem; /* 48px */
+    line-height: 1;
+}
+
+/* 6XL Text */
+.text-6xl {
+    font-size: 3.75rem; /* 60px */
+    line-height: 1;
+}
+
+/* 7XL Text */
+.text-7xl {
+    font-size: 4.5rem; /* 72px */
+    line-height: 1;
+}
+
+/* 8XL Text */
+.text-8xl {
+    font-size: 6rem; /* 96px */
+    line-height: 1;
+}
+
+/* 9XL Text */
+.text-9xl {
+    font-size: 8rem; /* 128px */
+    line-height: 1;
+}
+
+/* Font Weights */
+
+/* Thin Font */
+.font-thin {
+    font-weight: 100;
+}
+
+/* Extra Light Font */
+.font-extralight {
+    font-weight: 200;
+}
+
+/* Light Font */
+.font-light {
+    font-weight: 300;
+}
+
+/* Normal Font */
+.font-normal {
+    font-weight: 400;
+}
+
+/* Medium Font */
+.font-medium {
+    font-weight: 500;
+}
+
+/* Semi Bold Font */
+.font-semibold {
+    font-weight: 600;
+}
+
+/* Bold Font */
+.font-bold {
+    font-weight: 700;
+}
+
+/* Extra Bold Font */
+.font-extrabold {
+    font-weight: 800;
+}
+
+/* Black Font */
+.font-black {
+    font-weight: 900;
+}
+
+/* Font Styles */
+
+/* Italic Font */
+.italic {
+    font-style: italic;
+}
+
+/* Normal Font (Not Italic) */
+.not-italic {
+    font-style: normal;
+}
+
+footer {
+    background-color: #0378c5;
+    color: white !important;
+    display: grid;
+    padding: 24px;
+    text-align: center;
+}
+
+footer h1 {
+    color: white !important;
+    font-size: 24px;
+    font-weight: lighter;
+}
+
+@media (max-width: 768px) {
+    footer h1 {
+        font-size: 12px;
+    }
+}
